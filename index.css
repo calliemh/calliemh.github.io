@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    color: #191b1e;
+    text-shadow: 1px 1px 0 #00ffd9,
+    -1px -1px 0 #00ff6e;
+    
+ }
+
+h3 {
+    text-align: center;
+    color: #00ff6e;
+ }
+
+ .updates {
+    text-align: center;
+    color: #00ffd9;
+ }
+
+ #link {
+    text-align: center;
+    color: #00ffd9;
+    padding-top: 40px;
+ }
+
+ a:link {
+    border-radius: 20px;
+    padding: 5px;
+    color: #000000;
+    background-color: #00ff6e;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+ * {
+    background: #191b1e;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+ }
