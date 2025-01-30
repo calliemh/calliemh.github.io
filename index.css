@@ -1,5 +1,4 @@
 h1 {
-    text-align: center;
     color: #191b1e;
     text-shadow: 1px 1px 0 #00ffd9,
         -1px -1px 0 #00ff6e;
@@ -7,17 +6,10 @@ h1 {
 }
 
 h3 {
-    text-align: center;
     color: #00ff6e;
 }
 
-p {
-    text-align: center;
-    color: #00ffd9;
-}
-
 #link {
-    text-align: center;
     color: #00ffd9;
     padding-top: 10px;
 
@@ -35,5 +27,7 @@ a {
 body {
     background: #191b1e;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    text-align: center;
+    color: #00ffd9;
+    
 }
