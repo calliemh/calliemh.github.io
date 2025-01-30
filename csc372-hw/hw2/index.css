@@ -1,0 +1,60 @@
+body {
+    background-color: rgba(115, 137, 178, 0.847);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(208, 225, 235);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(62, 58, 131);
+}
+
+h2 {
+    font-style: oblique;
+    color: rgb(62, 58, 131);
+}
+
+h3 {
+    color: rgb(62, 58, 131);
+    font-size: 25px;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(62, 58, 131);
+    font-size: 25px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+}
+
+a {
+    color: gold;
+}
+
+span {
+    color: gold;
+}
+
+.tooltip {
+    color: gold;
+
+    text-decoration: underline dotted;
+}
+
+.tooltip .tiptext {
+    visibility: hidden;
+    background-color: rgb(62, 58, 131);
+    padding: 3px 5px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.tooltip:hover .tiptext {
+    visibility: visible;
+}
