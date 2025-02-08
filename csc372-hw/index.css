@@ -1,0 +1,16 @@
+a {
+    border-radius: 20px;
+    padding: 5px;
+    color: #000000;
+    background-color: #00ff6e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body {
+    background: #191b1e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #00ffd9;
+    
+}
