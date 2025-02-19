@@ -13,5 +13,6 @@ for (let index = 0; index < addBtn.length; index++) {
 
 function addAndDisplay(event) {
     const price = parseFloat(addBtn.price);
-    getTotal.textContent = total += price;
+    total += price;
+    getTotal.textContent = total;
 }
