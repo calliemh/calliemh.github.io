@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--
+  Name: Callie Hampton
+  Date: 02.18.2025
+  CSC 372-01
+
+  This is the plan.html page for Assignment 3.
+  It is the second page that allows users to create meal plans.
+-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,19 +31,38 @@
     <div id="container">
         <div id="item">
             <h2>Recommended Dishes:</h2>
-            <p>Strawberry Shortcake Coffee - $4.75</p>
-            <p>Breakfast Sandwich - $7.00</p>
-            <p>Santa Fe Turkey Panini - $13.00</p>
-            <p>Cortado - $4.00</p>
-            <p>Peach Muffin - $3.35</p>
-            <p>Iced Latte - $4.00</p>
-            <p>Green Tea - $4.25</p>
-            <p>Wintermelon Tea - $4.25</p>
-            <p>Creme Brulee Brown Sugar Milk Tea - $6.25</p>
+            <div class="data">Strawberry Shortcake Coffee - $4.75</div>
+            <button id="add-btn" price="4.25">Add</button>
+
+            <div class="data">Breakfast Sandwich - $7.00</div>
+            <button id="add-btn" price="7">Add</button>
+
+            <div class="data">Santa Fe Turkey Panini - $13.00</div>
+            <button id="add-btn" price="13">Add</button>
+
+            <div class="data">Cortado - $4.00</div>
+            <button id="add-btn" price="4">Add</button>
+
+            <div class="data">Peach Muffin - $3.35</div>
+            <button id="add-btn" price="3.35">Add</button>
+
+            <div class="data">Iced Latte - $4.00</div>
+            <button id="add-btn" price="4">Add</button>
+
+            <div class="data">Green Tea - $4.25</div>
+            <button id="add-btn" price="4.25">Add</button>
+
+            <div class="data">Wintermelon Tea - $4.25</div>
+            <button id="add-btn" price="4.25">Add</button>
+
+            <div class="data">Creme Brulee Brown Sugar Milk Tea - $6.25</div>
+            <button id="add-btn" price="6.25">Add</button>
         </div>
         <div id="item">
             <h2>Meal Plan:</h2>
-            <div id="data"></div>
+            <p>Items: <span id="itemlist"> </span></p>
+            <p>Total Cost: $<span id="total"> </span></p>
+            <div id="total"></div>
         </div>
     </div>
 

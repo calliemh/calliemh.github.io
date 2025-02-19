@@ -1,9 +1,5 @@
 "use strict";
 
-const myImg = document.querySelector("img");
-myImg.addEventListener("click", addBorders);
-
-
 const img = event.currentTarget;
 
 const gallery = document.querySelectorAll('img');
@@ -18,16 +14,5 @@ function expand(event) {
     bigImage.classList.add('small');
     smallImage.classList.remove('small');
     smallImage.classList.add('big');
-}
-
-function details(event) {
-
-    /*document.getElementById('image')
-                .style.display = "block";
-            document.getElementById('btnID')
-                .style.display = "none";*/
-
-    gallery.style.border = "5px solid red";
-
 }
 
