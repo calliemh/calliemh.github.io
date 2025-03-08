@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+}
+
+.pc-inactive {
+    display: none;
+}
+
+.pc-rock {
+    display: none;
+}
+.pc-paper {
+    display: none;
+}
+.pc-scissors {
+    display: none;
+}
+
+.result-inactive {
+    display: none;
+}
