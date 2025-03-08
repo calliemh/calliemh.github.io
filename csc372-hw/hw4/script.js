@@ -7,9 +7,6 @@ for (let index = 0; index < imgArray.length; index++) {
 
 }
 
-
-
-
 function selectThrow(event) {
     let currImg = event.currentTarget;
 
@@ -42,11 +39,6 @@ function selectThrow(event) {
 function deactvQuestion() {
     document.getElementById('pc-question')
         .classList.replace("pc-active", "pc-inactive");
-    let question = document.getElementById('pc-question')
-        .className;
-    document.getElementById('pc-question')
-        .innerHTML = "<img src=\"rock.PNG\">"
-        + question;
 }
 
 function randThrow() {
@@ -54,20 +46,24 @@ function randThrow() {
     //return imgArray[randIndex];
 
     var a = Math.floor(Math.random() * imgArray.length);
+    console.log(a);
 
-    if (a.className === "pc-rock") {
-        a.classList.replace("pc-rock", "pc-active");
+    if (a === 0) {
+
+        document.getElementById('pc-rock')
+        .classList.replace("pc-rock", "pc-active");
     }
-    else if (a.className === "pc-paper") {
-        a.classList.replace("pc-paper", "pc-active");
+    else if (a === 1) {
+        document.getElementById("pc-paper")
+            .classList.replace("pc-paper", "pc-active");
     }
-    else if (a.className === "pc-scissors") {
-        a.classList.replace("pc-scissors", "pc-active");
+    else if (a === 2) {
+        document.getElementById("pc-scissors")
+            .classList.replace("pc-scissors", "pc-active");
     }
     else {
-        a.classList.replace("pc-inactive", "pc-active");
+        document.getElementById("pc-inactive")
+            .classList.replace("pc-inactive", "pc-active");
+
     }
-
-
-
 }

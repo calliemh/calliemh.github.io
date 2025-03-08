@@ -20,6 +20,14 @@ body {
     display: none;
 }
 
-.result-inactive {
+.result-win {
+    display: none;
+}
+
+.result-loss {
+    display: none;
+}
+
+.result-tie {
     display: none;
 }
