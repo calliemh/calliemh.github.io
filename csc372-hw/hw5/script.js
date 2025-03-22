@@ -17,8 +17,6 @@ async function getRepos() {
                     if (i > 20) return;
                     console.log(repo);
 
-
-                    //document.querySelector('ul').insertAdjacentHTML('beforeend', repo.description + '\n');
                     const repoItem = document.createElement("div");
                     repoItem.classList.add("repo-item");
 
