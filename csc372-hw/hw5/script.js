@@ -45,14 +45,17 @@ async function getRepos() {
                     try {
                         let commitsUrl = repo.commits_url.split("{")[0];
                         let res2 = await fetch(commitsUrl);
-                        if (!res2.ok)
+                        if (!res2.ok) {
                             commits = 0;
+                            repoCommits.innerText = commits;
+                        }
                         res2.json().then(data2 => {
                             commits = data2.length;
+                            repoCommits.innerText = commits;
 
                         });
 
-                        repoCommits.innerText = commits;
+
 
                     } catch (err) {
                         console.error("Error:", err);
