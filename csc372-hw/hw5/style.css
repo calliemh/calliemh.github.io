@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+body {
+    background-color: rgb(147, 147, 147);
+}
+
+* {
+    font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+nav {
+    background-color: #b0b0b0;
+    overflow: hidden;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 5vh;
+}
+
+nav input[type=text] {
+    background-color: #eaeaea;
+    margin: 5px 0 5px 5px;
+    padding: 5px;
+    font-size: 18px;
+    width: 30%;
+    border: 1px solid black;
+}
+
+nav input[type=text]:focus {
+    background-color: white;
+    outline: none;
+    border: 1px solid white;
+}
+
+nav button[type=submit] {
+    background-color: #eaeaea;
+    padding: 5px;
+    font-size: 18px;
+    width: 50px;
+
+    border: 1px solid black;
+}
+
+nav button[type=submit]:active {
+    background-color: #c6c6c6;
+}
+
+.repos-container {
+    height: 92.5vh;
+    overflow-x: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 5vh;
+}
+
+.repo-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0.5vh;
+    border-radius: 0.5vh;
+    padding: 2vh;
+    height: 40vh;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
